@@ -36,9 +36,10 @@ See docs:
 - JSON outputs
 
 ## How to Run (Prototype)
+
 1) Download this repo to your computer (Code → Download ZIP), unzip it.
 2) Install Python 3.11+.
 3) Install dependencies:
    ```bash
-   pip install pandas
-
+   python3 -m pip install pandas
+   ```
