@@ -1,0 +1,16 @@
+[
+  {
+    "fund_id":1,
+    "month":"2025-01",
+    "total_debit":25000,
+    "total_credit":22000,
+    "net":3000
+  },
+  {
+    "fund_id":2,
+    "month":"2025-01",
+    "total_debit":18000,
+    "total_credit":15000,
+    "net":3000
+  }
+]
