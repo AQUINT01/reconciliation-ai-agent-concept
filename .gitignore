@@ -205,15 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-
 # Python
 __pycache__/
 *.pyc
 
-# Python
-__pycache__/
-*.pyc
 
-# Python
-__pycache__/
-*.pyc
