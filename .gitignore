@@ -210,3 +210,7 @@ __pycache__/
 *.pyc
 
 
+.DS_Store
+
+# macOS
+.DS_Store
