@@ -35,11 +35,16 @@ See docs:
 - pandas (data handling)
 - JSON outputs
 
-## How to Run (Prototype)
+## Run Locally (Quick Demo)
+Prereqs: Python 3.11+
 
-1) Download this repo to your computer (Code → Download ZIP), unzip it.
-2) Install Python 3.11+.
-3) Install dependencies:
+Install dependency:
    ```bash
    python3 -m pip install pandas
    ```
+
+Run:
+   ```bash
+   python3 src/run_agent.py
+   ```
+
