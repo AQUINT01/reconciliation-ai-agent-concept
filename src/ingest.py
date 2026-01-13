@@ -1,11 +1,8 @@
 import pandas as pd
+from mapping import load_column_map, apply_mapping
 
-REQUIRED_COLS = ["date", "amount", "description"]
-
-def load_csv(path: str) -> pd.DataFrame:
+def load_csv(path: str, source: str) -> pd.DataFrame:
     df = pd.read_csv(path)
     df.columns = [c.strip() for c in df.columns]
-    missing = [c for c in REQUIRED_COLS if c not in df.columns]
-    if missing:
-        raise ValueError(f"Missing required columns in {path}: {missing}")
-    return df
+    cmap = load_column_map()
+    return apply_mapping(df, source=source, column_map=cmap)

@@ -1,0 +1,20 @@
+{
+  "ledger": {
+    "date": ["date", "txn_date", "transaction_date", "post_date"],
+    "amount": ["amount", "amt", "transaction_amount"],
+    "description": ["description", "memo", "details", "transaction_description"],
+    "vendor": ["vendor", "payee", "vendor_name"],
+    "dept": ["dept", "department", "department_name"],
+    "gl": ["gl", "gl_code", "object_code", "account_code"],
+    "app": ["app", "app#", "application", "grant_app", "grant_id"]
+  },
+  "subledger": {
+    "date": ["date", "txn_date", "transaction_date", "post_date"],
+    "amount": ["amount", "amt", "transaction_amount"],
+    "description": ["description", "memo", "details", "transaction_description"],
+    "vendor": ["vendor", "payee", "vendor_name"],
+    "dept": ["dept", "department", "department_name"],
+    "gl": ["gl", "gl_code", "object_code", "account_code"],
+    "app": ["app", "app#", "application", "grant_app", "grant_id"]
+  }
+}
