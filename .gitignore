@@ -214,3 +214,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Generated outputs
+outputs/
