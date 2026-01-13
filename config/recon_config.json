@@ -1,0 +1,12 @@
+{
+  "date_window_days": 2,
+  "amount_tolerance": 0.50,
+  "min_similarity": 85,
+  "top_k_suggestions": 3,
+  "field_weights": {
+    "vendor": 5,
+    "dept": 3,
+    "gl": 4,
+    "app": 8
+  }
+}
