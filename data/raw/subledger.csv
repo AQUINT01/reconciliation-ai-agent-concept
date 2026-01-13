@@ -1,0 +1,4 @@
+date,amount,description,vendor,dept,gl
+2025-12-31,1250.00,Invoice 4832 ACME Consulting,ACME,FIN,530
+2025-12-30,49.99,ZOOM SUBSCRIPTION DEC,ZOOM,FIN,530
+2025-12-28,250.00,Home Depot - supplies,HOME DEPOT,GRANTS,541
