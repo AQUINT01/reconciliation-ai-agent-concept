@@ -1,0 +1,20 @@
+{
+  "left": {
+    "path": "data/raw/left.csv",
+    "id": ["Edmunds Grant Account Id"],
+    "name": ["Grant account name *"],
+    "adopted_budget": ["Adopted grant amount *"],
+    "balance_appropriation": ["Current appropriation balance to date *"],
+    "balance_revenue": ["Current revenue balance to date *"]
+  },
+  "right": {
+    "path": "data/raw/right.csv",
+    "id": ["Edmunds Id"],
+    "name": ["Grant Name", "Edmunds.Description"],
+    "adopted_budget": ["Edmunds.Adopted Budget"],
+    "amended_budget": ["Edmunds.Amended Budget"],
+    "encumbered": ["Edmunds.Encumbered"],
+    "expended_ytd": ["Edmunds.Expended YTD"],
+    "balance": ["Edmunds.Balance"]
+  }
+}
